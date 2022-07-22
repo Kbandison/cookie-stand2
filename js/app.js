@@ -51,10 +51,11 @@ let seattle = {
     let liElem = document.createElement('li');
     liElem.textContent = `Total: ${this.total}`;
     ulElem.appendChild(liElem);
-  }
+  },
+
 };
 
-seattle.getCookieSoldPerHour();
+seattle.getcookieSoldPerHour();
 seattle.render();
 
 
@@ -106,8 +107,8 @@ let tokyo = {
   }
 };
 
-tokyo.getCookieSoldPerHour();
-tokyo.render();
+tokyo.getcookieSoldPerHour();
+//tokyo.render();
 
 
 let dubai = {
@@ -158,8 +159,8 @@ let dubai = {
   }
 };
 
-dubai.getCookieSoldPerHour();
-dubai.render();
+dubai.getcookieSoldPerHour();
+//dubai.render();
 
 
 let paris = {
@@ -210,8 +211,8 @@ let paris = {
   }
 };
 
-paris.getCookieSoldPerHour();
-paris.render();
+paris.getcookieSoldPerHour();
+//paris.render();
 
 
 let lima = {
@@ -262,7 +263,7 @@ let lima = {
   }
 };
 
-lima.getCookieSoldPerHour();
-lima.render();
+lima.getcookieSoldPerHour();
+//lima.render();
 
 
